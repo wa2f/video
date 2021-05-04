@@ -31,11 +31,12 @@ function isVlidEmail(email){
 form.addEventListener('submit',
 function(e){
 	e.preventDefault();
-	if (username.value==='') {
+	if (username.value==='') ({
 		showError(username,
 		'username is required');
-	}
-	else{
+	
+
+		else{
 		showSuccess(username);
 
 	}
